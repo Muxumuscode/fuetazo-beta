@@ -14,8 +14,14 @@ institution in the game is made up or a parody.
 
 ## English
 
-### Android
-Coming later: the phone version needs on-screen touch controls first.
+### Android — Handheld edition
+For Android handhelds with built-in controls (AYN Thor / Odin, Retroid, Anbernic...) or a phone
+with a Bluetooth controller. **There are no touch controls yet**: without a controller the game
+can't be played (the title screen tells you so).
+1. On the release page, download **`Fuetazo-<version>-android-handheld.apk`**.
+2. Open it. Android will ask to allow installing from your browser ("unknown apps"): allow it, go
+   back, and tap **Install**.
+3. Needs a 64-bit Android device.
 
 ### Windows (64-bit)
 1. Download **`Fuetazo-<version>-windows.zip`** and unzip it anywhere.
@@ -45,6 +51,7 @@ No Proton needed: it's a native Linux build.
 ### Updates
 When a new version is out, the title screen says **"¡Hay una versión nueva!"**. Tap
 **Actualizar** (Update) to open the download, then install it the same way:
+- Android: it installs over the old one.
 - Windows: replace the old folder with the new one.
 - Linux / Steam Deck: replace the old `Fuetazo.x86_64` with the new one, in the same place
   (Steam keeps pointing at it).
@@ -65,8 +72,14 @@ unfair or great, and which version you played (it's in the title screen's corner
 
 ## Español
 
-### Android
-Más adelante: la versión para teléfono necesita controles táctiles en pantalla primero.
+### Android — Edición para consolas portátiles
+Para consolas Android con controles (AYN Thor / Odin, Retroid, Anbernic...) o un teléfono con un
+control Bluetooth. **Todavía no hay controles táctiles**: sin un control no se puede jugar (la
+pantalla de inicio te lo avisa).
+1. En la página de la versión, descarga **`Fuetazo-<versión>-android-handheld.apk`**.
+2. Ábrelo. Android te pedirá permitir instalar desde el navegador ("apps desconocidas"):
+   permítelo, vuelve y toca **Instalar**.
+3. Necesita un Android de 64 bits.
 
 ### Windows (64 bits)
 1. Descarga **`Fuetazo-<versión>-windows.zip`** y descomprímelo donde quieras.
@@ -97,6 +110,7 @@ No hace falta Proton: es una versión nativa de Linux.
 ### Actualizaciones
 Cuando sale una versión nueva, la pantalla de inicio dice **"¡Hay una versión nueva!"**. Toca
 **Actualizar** para abrir la descarga e instálala igual:
+- Android: se instala encima de la anterior.
 - Windows: cambia la carpeta vieja por la nueva.
 - Linux / Steam Deck: cambia el `Fuetazo.x86_64` viejo por el nuevo, en el mismo lugar (Steam lo
   sigue encontrando).
