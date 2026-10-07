@@ -27,18 +27,40 @@ institution in the game is made up or a parody.
    isn't code-signed: click **More info → Run anyway**.
 3. Keyboard works; a gamepad is recommended.
 
+### Linux (64-bit)
+1. Download **`Fuetazo-<version>-linux.tar.gz`** and extract it anywhere.
+2. Run **`Fuetazo.x86_64`** (double-click it, or `./Fuetazo.x86_64` in a terminal). If your
+   desktop won't run it, right-click → Properties → allow it to run as a program
+   (or `chmod +x Fuetazo.x86_64`).
+
+### Steam Deck
+1. Hold the power button → **Switch to Desktop**.
+2. Open the browser, go to the release page, and download **`Fuetazo-<version>-linux.tar.gz`**.
+3. In **Dolphin** (the file manager), open Downloads, right-click the file → **Extract → Extract
+   archive here**. Move the `Fuetazo.x86_64` file somewhere it will stay, for example a new
+   folder `Games/Fuetazo` in your home folder.
+4. Open **Steam** (in Desktop Mode) → **Games → Add a Non-Steam Game to My Library…** → **Browse…**
+   → pick `Fuetazo.x86_64` → **Add Selected Programs**.
+5. Go back to **Gaming Mode** (the desktop shortcut "Return to Gaming Mode"). Fuetazo is in your
+   Library under **Non-Steam**, and plays with the Deck's controls.
+
+No Proton needed: it's a native Linux build.
+
 ### Updates
 When a new version is out, the title screen says **"¡Hay una versión nueva!"**. Tap
 **Actualizar** (Update) to open the download, then install it the same way:
 - Android: it installs over the old one.
 - Windows: replace the old folder with the new one.
+- Linux / Steam Deck: replace the old `Fuetazo.x86_64` with the new one, in the same place
+  (Steam keeps pointing at it).
 
 **Your save is kept either way.**
 
 ### Language
-The game is in Spanish by default: **Opciones → Idioma / Language → English**. The **Codex**
-(on the title screen and in the pause menu) explains the Dominican words, the characters, and
-how to fight each enemy.
+The very first time you open the game it asks you to pick **Español** or **English**; you can
+change it later in **Opciones → Idioma / Language**. The **Libreta** (Abuelo's notebook, on
+the title screen and in the pause menu) explains the Dominican words, the characters, and how
+to fight each enemy.
 
 ### Feedback
 Tell the person who sent you this link: what confused you, where you got stuck, what felt
@@ -61,13 +83,41 @@ unfair or great, and which version you played (it's in the title screen's corner
    firmado: haz clic en **Más información → Ejecutar de todas formas**.
 3. Funciona con teclado; se recomienda un control.
 
+### Linux (64 bits)
+1. Descarga **`Fuetazo-<versión>-linux.tar.gz`** y extráelo donde quieras.
+2. Abre **`Fuetazo.x86_64`** (doble clic, o `./Fuetazo.x86_64` en una terminal). Si tu escritorio
+   no lo deja abrir: clic derecho → Propiedades → permitir ejecutarlo como programa
+   (o `chmod +x Fuetazo.x86_64`).
+
+### Steam Deck
+1. Deja apretado el botón de encendido → **Cambiar a escritorio** (Switch to Desktop).
+2. Abre el navegador, entra a la página de la versión y descarga
+   **`Fuetazo-<versión>-linux.tar.gz`**.
+3. En **Dolphin** (el explorador de archivos), abre Descargas, clic derecho al archivo →
+   **Extraer → Extraer aquí**. Mueve `Fuetazo.x86_64` a un lugar fijo, por ejemplo una carpeta
+   nueva `Games/Fuetazo` en tu carpeta personal.
+4. Abre **Steam** (en el escritorio) → **Juegos → Añadir un juego que no es de Steam a mi
+   biblioteca…** → **Examinar…** → elige `Fuetazo.x86_64` → **Añadir programas seleccionados**.
+5. Vuelve al **Modo de juego** (el acceso directo "Return to Gaming Mode"). Fuetazo aparece en tu
+   Biblioteca, en **No de Steam**, y se juega con los controles del Deck.
+
+No hace falta Proton: es una versión nativa de Linux.
+
 ### Actualizaciones
 Cuando sale una versión nueva, la pantalla de inicio dice **"¡Hay una versión nueva!"**. Toca
 **Actualizar** para abrir la descarga e instálala igual:
 - Android: se instala encima de la anterior.
 - Windows: cambia la carpeta vieja por la nueva.
+- Linux / Steam Deck: cambia el `Fuetazo.x86_64` viejo por el nuevo, en el mismo lugar (Steam lo
+  sigue encontrando).
 
 **Tu partida no se pierde.**
+
+### Idioma
+La primera vez que abres el juego te pide elegir **Español** o **English**; luego lo puedes
+cambiar en **Opciones → Idioma / Language**. La **Libreta** (la del Abuelo, en la pantalla de
+inicio y en el menú de pausa) explica las palabras dominicanas, los personajes y cómo pelear
+contra cada enemigo.
 
 ### Comentarios
 Dile a quien te mandó este enlace qué te confundió, dónde te trabaste, qué se sintió injusto o
