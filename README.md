@@ -1,4 +1,4 @@
-# Fuetazo: El fukú del Almirante — beta
+# Fuetazo: La Brújula del Fucú — beta
 
 A top-down action game about Leo, a motoconcho driver (a motorcycle-taxi driver) in a parody
 Dominican Republic. He fights with a machete and a well-timed deflect against the *cucos*:
