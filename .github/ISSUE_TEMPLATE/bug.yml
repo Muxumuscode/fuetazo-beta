@@ -1,0 +1,57 @@
+name: "🐞 Bug / Error"
+description: "Something broke, got stuck, looked wrong or crashed. / Algo se rompió, se trabó, se vio mal o se cerró."
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Spanish or English, whatever you like. / ¡Gracias! En español o en inglés, como quieras.
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happened? / ¿Qué pasó?"
+      description: "And what did you expect? / ¿Y qué esperabas que pasara?"
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: "Where / when? / ¿Dónde o cuándo?"
+      description: "e.g. the park fight, talking to Abuela, the boss... / ej.: la pelea del parque, hablando con Abuela, el jefe..."
+  - type: input
+    id: version
+    attributes:
+      label: "Version / Versión"
+      description: "Bottom-right corner of the title screen, e.g. v0.5.2 / Esquina de abajo a la derecha de la pantalla de inicio"
+      placeholder: "v0.5.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Played on / Jugado en"
+      options:
+        - "Browser / Navegador"
+        - "Android phone or tablet / Teléfono o tablet Android"
+        - "Android handheld (Thor, Odin, Retroid...) / Consola Android"
+        - "Windows"
+        - "Linux"
+        - "Steam Deck"
+        - "Retro handheld (PortMaster) / Consola retro (PortMaster)"
+        - "Other / Otro"
+    validations:
+      required: true
+  - type: dropdown
+    id: controls
+    attributes:
+      label: "Controls / Controles"
+      options:
+        - "Gamepad / Control"
+        - "Keyboard / Teclado"
+        - "Touch / Táctil"
+  - type: textarea
+    id: media
+    attributes:
+      label: "Screenshot or video (optional) / Captura o video (opcional)"
+      description: "Drag it here. PortMaster: attach fuetazo/log.txt. / Arrástralo aquí. PortMaster: adjunta fuetazo/log.txt."

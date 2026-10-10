@@ -1,0 +1,28 @@
+name: "💡 Idea or opinion / Idea u opinión"
+description: "What felt unfair, confusing, boring or great, and what you'd change. / Qué se sintió injusto, confuso, aburrido o chévere, y qué cambiarías."
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: "Tell us / Cuéntanos"
+      description: "Spanish or English. / En español o en inglés."
+    validations:
+      required: true
+  - type: dropdown
+    id: about
+    attributes:
+      label: "About / Sobre"
+      options:
+        - "Fights and controls / Peleas y controles"
+        - "Story and characters / Historia y personajes"
+        - "Difficulty / Dificultad"
+        - "Look and sound / Imagen y sonido"
+        - "Menus, settings, updates / Menús, opciones, actualizaciones"
+        - "Other / Otro"
+  - type: input
+    id: version
+    attributes:
+      label: "Version (optional) / Versión (opcional)"
+      placeholder: "v0.5.2"
