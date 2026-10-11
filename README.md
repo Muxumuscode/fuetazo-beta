@@ -27,7 +27,7 @@ Every brand, place and institution in the game is made up or a parody.
 | Android phone, tablet or handheld (Thor, Odin, Retroid...) | `Fuetazo-<version>-android.apk` | touch controls or a controller |
 | Windows | `Fuetazo-<version>-windows.zip` | keyboard or gamepad |
 | Linux / Steam Deck / Legion Go (Linux) | `Fuetazo-<version>-linux.tar.gz` | |
-| Retro handhelds with PortMaster (Knulli, ROCKNIX, muOS...) | `Fuetazo-<version>-portmaster.zip` | experimental |
+| Retro handhelds with PortMaster (Knulli, ROCKNIX, muOS...) | see the [PortMaster TEST build](https://github.com/Muxumuscode/fuetazo-beta/releases/tag/portmaster-test-1) | testers wanted |
 
 ### Android
 1. Download **`Fuetazo-<version>-android.apk`** and open it.
@@ -56,15 +56,11 @@ Every brand, place and institution in the game is made up or a parody.
    `Fuetazo.x86_64` → **Add Selected Programs**.
 5. Back in **Gaming Mode**, Fuetazo is in your Library under **Non-Steam**. No Proton needed.
 
-### Retro handhelds (PortMaster) — experimental
-For ARM64 Linux handhelds with PortMaster: Miyoo Flip, Anbernic RG35XX / RG40XX / RG353, TrimUI,
-Powkiddy and others, on Knulli, ROCKNIX, muOS, ArkOS...
-1. Download **`Fuetazo-<version>-portmaster.zip`** and unzip it.
-2. Copy **`Fuetazo.sh`** and the **`fuetazo`** folder into your SD card's `ports` folder (Knulli:
-   `roms/ports/`), refresh the game list, and start **Fuetazo** from Ports. Have Wi-Fi on the first
-   time (PortMaster may download a component once).
-3. If the buttons do nothing, open `Fuetazo.sh` and set `USE_KEYBOARD=1`. If it doesn't start, please
-   report it with the file `fuetazo/log.txt`.
+### Retro handhelds (PortMaster) — testers wanted
+We have not seen Fuetazo run on a handheld yet, so there is no regular download. If you have a handheld with PortMaster
+(Anbernic, TrimUI, Powkiddy, Retroid... on Knulli, muOS, ROCKNIX, ArkOS...) and want to help, try the
+**[PortMaster TEST build 1](https://github.com/Muxumuscode/fuetazo-beta/releases/tag/portmaster-test-1)** pre-release and tell us what happens: open an Issue and attach
+`fuetazo/log.txt`. A failed run helps just as much. Please do not use the `portmaster.zip` attached to older releases.
 
 ### Updates: automatic
 - **Browser:** always the newest version.
@@ -103,7 +99,7 @@ No GitHub account? Just tell the person who sent you this link.
 | Teléfono, tablet o consola Android (Thor, Odin, Retroid...) | `Fuetazo-<versión>-android.apk` | controles táctiles o un control |
 | Windows | `Fuetazo-<versión>-windows.zip` | teclado o control |
 | Linux / Steam Deck / Legion Go (Linux) | `Fuetazo-<versión>-linux.tar.gz` | |
-| Consolas retro con PortMaster (Knulli, ROCKNIX, muOS...) | `Fuetazo-<versión>-portmaster.zip` | experimental |
+| Consolas retro con PortMaster (Knulli, ROCKNIX, muOS...) | mira la [versión de prueba para PortMaster](https://github.com/Muxumuscode/fuetazo-beta/releases/tag/portmaster-test-1) | se buscan probadores |
 
 ### Android
 1. Descarga **`Fuetazo-<versión>-android.apk`** y ábrelo.
@@ -132,15 +128,11 @@ No GitHub account? Just tell the person who sent you this link.
    → elige `Fuetazo.x86_64` → **Añadir programas seleccionados**.
 5. En el **Modo de juego**, Fuetazo sale en tu Biblioteca, en **No de Steam**. No hace falta Proton.
 
-### Consolas retro (PortMaster) — experimental
-Para consolas Linux ARM64 con PortMaster: Miyoo Flip, Anbernic RG35XX / RG40XX / RG353, TrimUI,
-Powkiddy y otras, con Knulli, ROCKNIX, muOS, ArkOS...
-1. Descarga **`Fuetazo-<versión>-portmaster.zip`** y descomprímelo.
-2. Copia **`Fuetazo.sh`** y la carpeta **`fuetazo`** a la carpeta `ports` de tu tarjeta SD (Knulli:
-   `roms/ports/`), actualiza la lista de juegos y abre **Fuetazo** desde Ports. Ten el Wi-Fi puesto
-   la primera vez (PortMaster puede bajar un componente una vez).
-3. Si los botones no hacen nada, abre `Fuetazo.sh` y pon `USE_KEYBOARD=1`. Si no abre, repórtalo con
-   el archivo `fuetazo/log.txt`.
+### Consolas retro (PortMaster) — se buscan probadores
+Todavía no hemos visto Fuetazo funcionando en una consola portátil, así que no hay una descarga normal. Si tienes una consola con
+PortMaster (Anbernic, TrimUI, Powkiddy, Retroid... con Knulli, muOS, ROCKNIX, ArkOS...) y quieres ayudar, prueba la
+versión **[PortMaster TEST build 1](https://github.com/Muxumuscode/fuetazo-beta/releases/tag/portmaster-test-1)** y cuéntanos qué pasa: abre un Issue y adjunta
+`fuetazo/log.txt`. Un intento fallido ayuda igual. Por favor no uses el `portmaster.zip` de versiones anteriores.
 
 ### Actualizaciones: automáticas
 - **Navegador:** siempre la versión más nueva.
